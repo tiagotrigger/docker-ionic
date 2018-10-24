@@ -1,6 +1,6 @@
-FROM tiagotrigger/cordova7
+FROM tiagotrigger/docker-cordova
 
-MAINTAINER Maik Hummel <m@ikhummel.com>
+MAINTAINER Tiago <tiago@eita.com>
 
 ENV IONIC_VERSION 3.2.0
 
