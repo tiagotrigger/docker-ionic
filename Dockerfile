@@ -2,7 +2,7 @@ FROM tiagotrigger/docker-cordova
 
 MAINTAINER Tiago <tiago@eita.com>
 
-ENV IONIC_VERSION 3.20.0
+ENV IONIC_VERSION 4.1.1
 
 RUN apt-get update && apt-get install -y git bzip2 openssh-client && \
     npm i -g --unsafe-perm ionic@${IONIC_VERSION} && \
